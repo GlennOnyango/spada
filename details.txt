@@ -1,0 +1,118 @@
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <h5>Company Name</h5>
+
+        <div class="header-contact">
+          <p>
+            <img
+              src="assets/icons/telephone.png"
+              width="15"
+              height="15"
+              alt="Dropdown Icon"
+            />
+            : 123-456-7890
+          </p>
+          <p>
+            <img
+              src="assets/icons/mail.png"
+              width="20"
+              height="20"
+              alt="Dropdown Icon"
+            />: company@email.com
+          </p>
+          <p>
+            <img
+              src="assets/icons/location.png"
+              width="20"
+              height="20"
+              alt="Dropdown Icon"
+            />: juja
+          </p>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="#" class="nav-link nav-link-home">Home</a>
+        <a href="#" class="nav-link nav-link-about-us">About Us</a>
+        <a href="#" class="nav-link nav-link-about-us">Testimonials</a>
+
+        <img
+          src="assets/bird-colorful.avif"
+          width="50"
+          height="50"
+          alt="Logo"
+        />
+
+        <div class="dropdown">
+          <div class="dropdown-title">
+            <a
+              href="#"
+              class="nav-link nav-link-services"
+              style="margin-right: 0%"
+              >Our Services</a
+            >
+            <!-- Add icon below-->
+
+            <img
+              src="assets/icons/arrow-down-sign-to-navigate.png"
+              width="10"
+              height="10"
+              alt="Dropdown Icon"
+            />
+          </div>
+          <div class="dropdown-content">
+            <a href="#">Branding</a>
+            <a href="#">Foam cleaning</a>
+            <a href="#">Upholstery</a>
+            <a href="#">Fumigation</a>
+            <a href="#">Building site treatment</a>
+            <a href="#">Supplies for related services</a>
+          </div>
+        </div>
+        <a href="#" class="nav-link nav-link-quoute">Get Quote</a>
+        <a href="#" class="nav-link nav-link-contact-us">Contact Us</a>
+      </nav>
+    </header>
+    <main>
+      <!-- Add the rest of your page content here -->
+
+      <div class="carousel">
+        <img src="assets/construction-cleaning.jpg" alt="Image 1" />
+        <img src="image2.jpg" alt="Image 2" />
+        <img src="image3.jpg" alt="Image 3" />
+      </div>
+
+      <div class="card-container">
+        <div class="card">
+          <p class="number-client">0</p>
+          <h3>Number of Clients</h3>
+        </div>
+
+        <div class="card">
+          <p class="homes-cleaned">500</p>
+          <h3>Number of Homes Cleaned</h3>
+        </div>
+
+        <div class="card">
+          <p class="delivery">0</p>
+          <h3>Deliveries Completed</h3>
+        </div>
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html> -->
