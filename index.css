@@ -2,5 +2,12 @@
   background-image: url('assets/spada_roof.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 40vh;
+  min-height: 60vh;
+}
+
+#loading-image{
+  background-image: url('assets/Resized/Office-Cleaing-Services.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
 }
