@@ -1,16 +1,9 @@
-// document
-//   .querySelector(".dropdown-title")
-//   .addEventListener("click", function () {
-//     //   document
-//     //     .querySelector(".dropdown-content")
-//     //     .scrollIntoView({ behavior: "smooth" });
-
-//     if (document.querySelector(".dropdown-content").style.display === "flex") {
-//       document.querySelector(".dropdown-content").style.display = "none";
-//     } else {
-//       document.querySelector(".dropdown-content").style.display = "flex";
-//     }
-//   });
+const tooltipTriggerList = document.querySelectorAll(
+  '[data-bs-toggle="tooltip"]'
+);
+const tooltipList = [...tooltipTriggerList].map(
+  (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+);
 
 // hover effect
 
@@ -32,21 +25,20 @@ if (document.querySelector(".number-client")) {
     setTimeout(() => {
       console.log(i);
       document.querySelector(".number-client").textContent = i;
-    }, 10 * i/10);
+    }, (10 * i) / 10);
   }
 }
 
 // check if homes-cleaned is on the page
 if (document.querySelector(".homes-cleaned")) {
-    // create for to add number of client
-    for (let i = 0; i <= 2538; i++) {
-      setTimeout(() => {
-        console.log(i);
-        document.querySelector(".homes-cleaned").textContent = i;
-      }, 10 * i/10);
-    }
+  // create for to add number of client
+  for (let i = 0; i <= 2538; i++) {
+    setTimeout(() => {
+      console.log(i);
+      document.querySelector(".homes-cleaned").textContent = i;
+    }, (10 * i) / 10);
   }
-
+}
 
 // check if delivery is on the page
 if (document.querySelector(".delivery")) {
@@ -55,9 +47,9 @@ if (document.querySelector(".delivery")) {
     setTimeout(() => {
       console.log(i);
       document.querySelector(".delivery").textContent = i;
-    }, 10 * i/10);
+    }, (10 * i) / 10);
   }
-}  
+}
 
 // make carousel
 let slideIndex = 0;
