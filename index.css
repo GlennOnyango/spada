@@ -11,3 +11,9 @@
   background-repeat: no-repeat;
   height: 80vh;
 }
+
+ 
+/* Set the border color to the desired color */
+.custom-toggler.navbar-toggler {
+  border-color: lightgreen;
+}
