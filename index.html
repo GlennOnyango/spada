@@ -96,7 +96,7 @@
           <button
             class="btn btn-outline-primary btn-sm"
             data-bs-toggle="modal"
-            data-bs-target="#exampleModal"
+            data-bs-target="#quoteModal"
           >
             Get Quote
           </button>
@@ -174,7 +174,7 @@
                 <button
                   class="btn btn-outline-primary btn-lg"
                   data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"
+                  data-bs-target="#quoteModal"
                 >
                   Get Quote
                 </button>
@@ -226,7 +226,7 @@
         <button
           class="btn btn-outline-primary btn-lg"
           data-bs-toggle="modal"
-          data-bs-target="#exampleModal"
+          data-bs-target="#quoteModal"
         >
           Get Quote
         </button>
@@ -343,7 +343,13 @@
             </div>
 
             <div class="col-sm-12 py-3 d-flex justify-content-center">
-              <button class="btn btn-outline-primary">Get quote !</button>
+              <button
+                class="btn btn-outline-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#quoteModal"
+              >
+                Get Quote !
+              </button>
             </div>
           </div>
         </div>
@@ -407,7 +413,9 @@
       <section class="p-5 bg-light" id="contact-section">
         <div class="row">
           <div class="px-4 col-md-6">
-            <h5 class="text-center display-3">We would like to here from you.</h5>
+            <h5 class="text-center display-3">
+              We would like to here from you.
+            </h5>
             <p class="text-center lead">
               Need to get in touch with us? Fill in the form and we will get
               back to you as soon as we can.
@@ -555,6 +563,115 @@
     </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
+
+    <div
+      class="modal fade"
+      id="quoteModal"
+      tabindex="-1"
+      aria-labelledby="quoteModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="quoteModalLabel">Get Quote</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <p>
+                Interested in any of our services? Fill this form and a member
+                of our team will contact you.
+              </p>
+
+              <form class="row p-2 col-sm-12 m-0">
+                <div class="mb-3 col-md-6">
+                  <label
+                    for="exampleInputEmail1"
+                    class="form-label text-primary"
+                    >First name</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                  />
+                </div>
+
+                <div class="mb-3 col-md-6">
+                  <label
+                    for="exampleInputEmail1"
+                    class="form-label text-primary"
+                    >Last name</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                  />
+                </div>
+
+                <div class="mb-3 col-sm-12">
+                  <label
+                    for="exampleInputEmail1"
+                    class="form-label text-primary"
+                    >Phone number</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                  />
+
+                  <div id="emailHelp" class="form-text">
+                    We'll never share your phone with anyone else.
+                  </div>
+                </div>
+
+                <div class="mb-3 col-sm-12">
+                  <label
+                    for="exampleInputEmail1"
+                    class="form-label text-primary"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                  />
+                  <div id="emailHelp" class="form-text">
+                    We'll never share your email with anyone else.
+                  </div>
+                </div>
+
+                <div class="mb-3 col-sm-12">
+                  <label
+                    for="exampleInputEmail1"
+                    class="form-label text-primary"
+                    >Message</label
+                  >
+                  <textarea
+                    class="form-control"
+                    aria-label="With textarea"
+                  ></textarea>
+                </div>
+
+                <button class="btn btn-primary">Send message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script
