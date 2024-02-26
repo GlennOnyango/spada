@@ -17,8 +17,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['quote_form'])) {
 
     if (mail($to, $subject, $body, $headers)) {
         echo 'Email sent successfully';
+        return 'Email sent successfully';
     } else {
         echo 'Failed to send email';
+        return 'Failed to send email';
     }
 }
 
@@ -38,8 +40,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['contact_form'])){
     $headers = "From: $email";
 
     if (mail($to, $subject, $body, $headers)) {
-        echo 'Email sent successfully';
+        //return with http response
+
+        return 'Email sent successfully';
+        
     } else {
-        echo 'Failed to send email';
+        return 'Failed to send email';
     }
 }

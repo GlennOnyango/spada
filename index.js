@@ -70,7 +70,7 @@ document.querySelector(".quote_form").addEventListener("submit", (e) => {
         throw new Error("An error occured");
       } else {
         document.querySelector(".quote_form").reset();
-        document.querySelector(".response-sector").innerHTML = `
+        document.querySelector(".quote_form").innerHTML = `
         <div class="alert alert-success" role="alert">
           Dear ${first_name} ${last_name},
           Thank you for reaching out, a member of our organisation will get back to you shortly.
