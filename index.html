@@ -561,55 +561,62 @@
               </a>
             </div>
           </div>
-          <form class="row p-2 col-sm-12 col-md-6 m-0">
-            <div class="mb-3 col-md-6">
-              <label for="exampleInputEmail1" class="form-label text-primary"
+          <form class="row p-2 col-sm-12 col-md-6 m-0 contact_form">
+            
+            <div class="response-sector"></div>
+            
+            <div class="mb-3 col-sm-12 col-md-6">
+              <label for="contact_first_name" class="form-label text-primary"
                 >First name</label
               >
               <input
-                type="email"
+                type="text"
                 class="form-control"
-                id="exampleInputEmail1"
+                id="contact_first_name"
+                required
                 aria-describedby="emailHelp"
               />
             </div>
 
-            <div class="mb-3 col-md-6">
-              <label for="exampleInputEmail1" class="form-label text-primary"
+            <div class="mb-3 col-sm-12 col-md-6">
+              <label for="contact_last_name" class="form-label text-primary"
                 >Last name</label
               >
               <input
-                type="email"
+                type="text"
                 class="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
+                required
+                id="contact_last_name"
+                aria-describedby="lastName"
               />
             </div>
 
-            <div class="mb-3 col-sm-12">
-              <label for="exampleInputEmail1" class="form-label text-primary"
+            <div class="mb-3 col-sm-12 col-md-6">
+              <label for="contact_phone_number" class="form-label text-primary"
                 >Phone number</label
               >
               <input
-                type="email"
+                type="tel"
+                required
                 class="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
+                id="contact_phone_number"
+                aria-describedby="phoneNumber"
               />
 
-              <div id="emailHelp" class="form-text">
+              <div id="phoneNumber" class="form-text">
                 We'll never share your phone with anyone else.
               </div>
             </div>
 
-            <div class="mb-3 col-sm-12">
-              <label for="exampleInputEmail1" class="form-label text-primary"
+            <div class="mb-3 col-sm-12 col-md-6">
+              <label for="contact_email" class="form-label text-primary"
                 >Email address</label
               >
               <input
                 type="email"
                 class="form-control"
-                id="exampleInputEmail1"
+                id="contact_email"
+                required
                 aria-describedby="emailHelp"
               />
               <div id="emailHelp" class="form-text">
@@ -618,11 +625,13 @@
             </div>
 
             <div class="mb-3 col-sm-12">
-              <label for="exampleInputEmail1" class="form-label text-primary"
+              <label for="contact_message" class="form-label text-primary"
                 >Message</label
               >
               <textarea
                 class="form-control"
+                required
+                id="contact_message"
                 aria-label="With textarea"
               ></textarea>
             </div>
@@ -649,7 +658,7 @@
           style="color: #b50706; font-size: xx-large"
         ></i
       ></a>
-      <a data-bs-toggle="tooltip" data-bs-title="Nanyuki, Kenya">
+      <a data-bs-toggle="tooltip" data-bs-title="Nanyuki, Laikipia County, Kenya">
         <i
           class="bi bi-geo-alt-fill"
           style="color: #b50706; font-size: xx-large"
@@ -695,46 +704,44 @@
                 of our team will contact you.
               </p>
 
-              <form class="row p-2 col-sm-12 m-0">
-                <div class="mb-3 col-md-6">
-                  <label
-                    for="exampleInputEmail1"
-                    class="form-label text-primary"
+              <form class="row p-2 col-sm-12 m-0 quote_form">
+                <div class="response-sector"></div>
+                <div class="mb-3 col-sm-12 col-md-6">
+                  <label for="first_name" class="form-label text-primary"
                     >First name</label
                   >
                   <input
-                    type="email"
+                    type="text"
                     class="form-control"
-                    id="exampleInputEmail1"
-                    aria-describedby="emailHelp"
+                    id="first_name"
+                    required
+                    aria-describedby="firstName"
                   />
                 </div>
 
-                <div class="mb-3 col-md-6">
-                  <label
-                    for="exampleInputEmail1"
-                    class="form-label text-primary"
+                <div class="mb-3 col-sm-12 col-md-6">
+                  <label for="text" class="form-label text-primary"
                     >Last name</label
                   >
                   <input
-                    type="email"
+                    type="text"
                     class="form-control"
-                    id="exampleInputEmail1"
-                    aria-describedby="emailHelp"
+                    id="last_name"
+                    required
+                    aria-describedby="lastName"
                   />
                 </div>
 
-                <div class="mb-3 col-sm-12">
-                  <label
-                    for="exampleInputEmail1"
-                    class="form-label text-primary"
+                <div class="mb-3 col-sm-12 col-md-6">
+                  <label for="phone_number" class="form-label text-primary"
                     >Phone number</label
                   >
                   <input
-                    type="email"
+                    type="tel"
                     class="form-control"
-                    id="exampleInputEmail1"
-                    aria-describedby="emailHelp"
+                    id="phone_number"
+                    required
+                    aria-describedby="phone number"
                   />
 
                   <div id="emailHelp" class="form-text">
@@ -742,16 +749,15 @@
                   </div>
                 </div>
 
-                <div class="mb-3 col-sm-12">
-                  <label
-                    for="exampleInputEmail1"
-                    class="form-label text-primary"
+                <div class="mb-3 col-sm-12 col-md-6">
+                  <label for="email" class="form-label text-primary"
                     >Email address</label
                   >
                   <input
                     type="email"
                     class="form-control"
-                    id="exampleInputEmail1"
+                    id="email"
+                    required
                     aria-describedby="emailHelp"
                   />
                   <div id="emailHelp" class="form-text">
@@ -760,19 +766,40 @@
                 </div>
 
                 <div class="mb-3 col-sm-12">
-                  <label
-                    for="exampleInputEmail1"
-                    class="form-label text-primary"
+                  <label for="email" class="form-label text-primary"
+                    >Email address</label
+                  >
+                  <select
+                    class="form-select"
+                    id="service"
+                    aria-label="Default select example"
+                  >
+                    <option selected>Select service</option>
+                    <option value="Branding">Branding</option>
+                    <option value="Foam cleaning">Foam cleaning</option>
+                    <option value="Upholstery">Upholstery</option>
+                    <option value="Fumigation">Fumigation</option>
+                    <option value="Building site treatment">Building site treatment</option>
+                    <option value="Supplies for related services">Supplies for related services</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </div>
+
+                <div class="mb-3 col-sm-12">
+                  <label for="message" class="form-label text-primary"
                     >Message</label
                   >
                   <textarea
                     class="form-control"
+                    id="message"
+                    required
                     aria-label="With textarea"
                   ></textarea>
                 </div>
 
                 <button
                   class="btn text-white"
+                  type="submit"
                   style="background-color: #b50706"
                 >
                   Send message
